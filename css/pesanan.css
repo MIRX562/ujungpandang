@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(150deg, #000000, #272020);
+}
+.forminput {
+  max-width: 800px;
+  width: 60%;
+  height: 60vh;
+  position: relative;
+  top: 250px;
+  background-color: rgba(255, 255, 255, 0.854);
+  padding: 25px 30px;
+  border-radius: 25px;
+  box-shadow: 05px 10px 2px 2px #000000c9;
+}
+.forminput .title {
+  top: -10px;
+  font-size: 25px;
+  font-weight: 800;
+  position: relative;
+  border-bottom: 3px solid #ffffffcc;
+}
+.input-pertama input {
+  height: 27px;
+  width: 30%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.input-pertama select {
+  height: 27px;
+  width: 30%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.input-pertama input:focus,
+.input-pertama input:valid {
+  border-color: rgba(0, 0, 0, 0.511);
+}
+.input-pertama select:focus,
+.input-pertama select:valid {
+  border-color: rgba(0, 0, 0, 0.511);
+}
+.btn {
+  height: 35px;
+  width: 20%;
+  border-radius: 80px;
+  background-color: black;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background-color: rgba(71, 129, 216, 0.589);
+}
+.pertama {
+  position: relative;
+  right: -10px;
+  top: 3px;
+}
+.kedua {
+  position: relative;
+  left: 470px;
+  bottom: 228px;
+}
+.btn {
+  position: relative;
+  bottom: 205px;
+  left: 550px;
+  box-shadow: 2px 2px 2px #000000cc;
+}
+.isi span {
+  display: block;
+  font-weight: 500;
+  margin-bottom: -10px;
+  margin-top: 5px;
+}
+
+.input-kedua input {
+  height: 27px;
+  width: 30%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.input-kedua input:focus,
+.input-kedua input:valid {
+  border-color: rgba(0, 0, 0, 0.511);
+}

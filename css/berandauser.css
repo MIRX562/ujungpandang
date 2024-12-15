@@ -1,0 +1,637 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.683);
+}
+.beranda {
+  color: rgb(0, 0, 0);
+  height: 98vh;
+  width: 100%;
+  box-shadow: 0px 0px 2px 2px #a8a8a8;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.beranda img {
+  position: relative;
+  top: 100px;
+}
+.beranda h1 {
+  position: relative;
+  right: -500px;
+  top: -300px;
+  color: white;
+  font-size: 80px;
+  font-style: italic;
+}
+.beranda h2 {
+  position: relative;
+  right: -500px;
+  top: -300px;
+  color: white;
+}
+.beranda h3 {
+  position: relative;
+  bottom: 250px;
+  left: 500px;
+}
+.right h2 {
+  color: #000000;
+  margin: 5px 0px 10px;
+  font-size: 30px;
+}
+h3 {
+  color: #ffffff;
+  font-size: 25px;
+}
+h4 {
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+.filosofi {
+  height: 98vh;
+  width: 100%;
+  margin-top: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+.filosofi h2 {
+  position: relative;
+  left: 985px;
+  top: 170px;
+}
+.filosofi h3 {
+  position: relative;
+  left: 900px;
+  top: 20px;
+}
+.filosofi .title h1 {
+  color: white;
+  position: relative;
+  left: 450px;
+  top: 20px;
+}
+.filosofi .isi p {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 30px;
+  left: 13px;
+}
+.container {
+  padding: 0;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  margin: 5px 100px;
+  gap: 20px;
+}
+.card {
+  width: 100%;
+  background-color: white;
+  height: auto;
+  grid-column: span 8;
+  margin: 10px 0;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0 10px 10px rgba(20, 14, 14, 0.527);
+}
+.head-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.body-card {
+  padding: 10px 15px;
+}
+.body-card h1 {
+  margin: 0;
+}
+.body-card svg {
+  width: 31px;
+  position: absolute;
+  bottom: 7px;
+  right: 20px;
+}
+@media screen and (min-width: 550px) {
+  .card {
+    grid-column: span 2;
+  }
+  @media screen and (min-width: 760px) {
+    .card {
+      width: 350px;
+      margin: 50px 10px 0 10px;
+    }
+    @media screen and (min-width: 960px) {
+    }
+  }
+}
+
+.kontak {
+  height: 82vh;
+  width: 100%;
+  margin-top: 15px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  height: 98vh;
+  width: 100%;
+}
+.card-contact {
+  display: flex;
+}
+.left {
+  flex: 1;
+  height: 480px;
+  background-color: #3c4446;
+}
+.right {
+  display: flex;
+  color: #000000;
+  flex: 1;
+  height: 460px;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  display: flex;
+  flex: 1;
+  height: 522px;
+  justify-content: center;
+  align-items: center;
+  color: #fffbfb;
+}
+.left-contact {
+  height: 50%;
+  width: 80%;
+  text-align: center;
+  line-height: 22px;
+}
+.left-contact h2 {
+  position: relative;
+  bottom: 70px;
+}
+.left p {
+  font-size: 0.9rem;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(255, 255, 255);
+}
+.right-contact {
+  width: 70%;
+  height: 80%;
+  text-align: center;
+}
+input,
+textarea {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  font-size: 0.8rem;
+}
+input:focus,
+textarea:focus {
+  outline: 1px solid #00b4cf;
+}
+.btn {
+  position: relative;
+  right: -1100px;
+  top: -140px;
+  border-radius: 20px;
+  border: 1px solid #2a4447;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-out;
+  cursor: pointer;
+}
+.button {
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid #2a4447;
+  background-color: #000000;
+  color: #ffffff;
+  top: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-out;
+  cursor: pointer;
+}
+
+.footer-distributed {
+  background-color: #292c2f;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease 0.25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease 0.25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition: all 0.25s;
+}
+
+.footer-distributed .footer-right a:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+.footer-distributed p.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+.btn:hover {
+  opacity: 0.7;
+  background-color: white;
+  color: black;
+}
+
+textarea {
+  height: 90px;
+}
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+  .left {
+    display: none;
+  }
+
+  .lg-view {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .sm-view {
+    display: none;
+  }
+}
+.menu {
+  height: 90vh;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.kotak1 img {
+  position: relative;
+  top: 1px;
+  border-radius: 15px;
+  width: 18%;
+  height: 150px;
+}
+.kotak2 img {
+  position: relative;
+  bottom: 35px;
+  border-radius: 15px;
+  width: 18%;
+  height: 150px;
+}
+.kotak3 img {
+  position: relative;
+  bottom: 70px;
+  border-radius: 15px;
+  width: 18%;
+  height: 150px;
+}
+.kotak4 img {
+  position: relative;
+  bottom: 85px;
+  border-radius: 15px;
+  width: 18%;
+  height: 150px;
+}
+.kotak5 img {
+  position: relative;
+  bottom: 140px;
+  border-radius: 15px;
+  width: 18%;
+  height: 150px;
+}
+.kotak6 img {
+  position: relative;
+  bottom: 195px;
+  border-radius: 15px;
+  width: 18%;
+  height: 150px;
+}
+.kotak7 img {
+  position: relative;
+  bottom: 263px;
+  border-radius: 15px;
+  width: 18%;
+  height: 150px;
+}
+.kotak8 img {
+  position: relative;
+  bottom: 298px;
+  border-radius: 15px;
+  width: 18%;
+  height: 150px;
+}
+.kotak9 img {
+  position: relative;
+  bottom: 335px;
+  border-radius: 15px;
+  width: 18%;
+  height: 150px;
+}
+.kotak10 img {
+  position: relative;
+  bottom: 320px;
+  border-radius: 15px;
+  width: 18%;
+  height: 150px;
+}
+.kotak11 img {
+  position: relative;
+  bottom: 353px;
+  border-radius: 15px;
+  width: 18%;
+  height: 150px;
+}
+.kotak12 img {
+  position: relative;
+  bottom: 388px;
+  border-radius: 15px;
+  width: 18%;
+  height: 150px;
+}
+
+.pertama {
+  position: relative;
+  right: -70px;
+  top: 25px;
+}
+.kedua {
+  position: relative;
+  right: -380px;
+  top: -497px;
+  line-height: 60px;
+}
+.ketiga {
+  position: relative;
+  right: -700px;
+  top: -985px;
+}
+.keempat {
+  position: relative;
+  right: -1020px;
+  top: -1534px;
+}
+.judul h1 {
+  position: relative;
+  left: 500px;
+  color: white;
+  border-bottom: 3px solid #00000067;
+  width: 20%;
+  top: -10px;
+  text-align: center;
+}
+.kotak1 h1 {
+  position: relative;
+  bottom: 50px;
+  color: white;
+  background-color: #00000065;
+  font-size: 25px;
+  left: -1px;
+  border-radius: 10px;
+  text-align: center;
+  height: 48px;
+  width: 242px;
+  line-height: 50px;
+}
+.kotak2 h1 {
+  position: relative;
+  bottom: 86px;
+  color: white;
+  background-color: #00000065;
+  font-size: 25px;
+  left: -1px;
+  border-radius: 10px;
+  text-align: center;
+  height: 48px;
+  width: 245px;
+  line-height: 50px;
+}
+.kotak3 h1 {
+  position: relative;
+  bottom: 125px;
+  color: white;
+  background-color: #00000065;
+  font-size: 25px;
+  left: -1px;
+  border-radius: 10px;
+  text-align: center;
+  height: 48px;
+  width: 245px;
+  line-height: 50px;
+}
+.kotak4 h1 {
+  position: relative;
+  bottom: 157px;
+  color: white;
+  background-color: #00000065;
+  font-size: 25px;
+  left: -1px;
+  border-radius: 10px;
+  text-align: center;
+  height: 48px;
+  width: 245px;
+  line-height: 50px;
+}
+.kotak5 h1 {
+  position: relative;
+  bottom: 212px;
+  color: white;
+  background-color: #00000065;
+  font-size: 25px;
+  left: -1px;
+  border-radius: 10px;
+  text-align: center;
+  height: 48px;
+  width: 245px;
+  line-height: 50px;
+}
+.kotak6 h1 {
+  position: relative;
+  bottom: 265px;
+  color: white;
+  background-color: #00000065;
+  font-size: 25px;
+  left: -1px;
+  border-radius: 10px;
+  text-align: center;
+  height: 48px;
+  width: 245px;
+  line-height: 50px;
+}
+.kotak7 h1 {
+  position: relative;
+  bottom: 315px;
+  color: white;
+  background-color: #00000065;
+  font-size: 25px;
+  left: -1px;
+  border-radius: 10px;
+  text-align: center;
+  height: 48px;
+  width: 245px;
+  line-height: 50px;
+}
+.kotak8 h1 {
+  position: relative;
+  bottom: 350px;
+  color: white;
+  background-color: #00000065;
+  font-size: 25px;
+  left: -1px;
+  border-radius: 10px;
+  text-align: center;
+  height: 48px;
+  width: 245px;
+  line-height: 50px;
+}
+.kotak9 h1 {
+  position: relative;
+  bottom: 388px;
+  color: white;
+  background-color: #00000065;
+  font-size: 25px;
+  left: -1px;
+  border-radius: 10px;
+  text-align: center;
+  height: 48px;
+  width: 245px;
+  line-height: 50px;
+}
+.kotak10 h1 {
+  position: relative;
+  bottom: 372px;
+  color: white;
+  background-color: #00000065;
+  font-size: 25px;
+  left: -1px;
+  border-radius: 10px;
+  text-align: center;
+  height: 48px;
+  width: 245px;
+  line-height: 50px;
+}
+.kotak11 h1 {
+  position: relative;
+  bottom: 405px;
+  color: white;
+  background-color: #00000065;
+  font-size: 25px;
+  left: -1px;
+  border-radius: 10px;
+  text-align: center;
+  height: 48px;
+  width: 245px;
+  line-height: 50px;
+}
+.kotak12 h1 {
+  position: relative;
+  bottom: 439px;
+  color: white;
+  background-color: #00000065;
+  font-size: 25px;
+  left: -1px;
+  border-radius: 10px;
+  text-align: center;
+  height: 48px;
+  width: 245px;
+  line-height: 50px;
+}
